@@ -2,11 +2,6 @@
     "name": "gabriel-delazeri/buscador-cursos",
     "description": "Projeto que busca cursos no site da alura",
     "type": "library",
-    "autoload": {
-        "psr-4": {
-            "GabrielDelazeri\\BuscadorCursos\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "nn"
@@ -16,5 +11,10 @@
         "symfony/css-selector": "^5.4",
         "guzzlehttp/guzzle": "^7.4",
         "symfony/dom-crawler": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
     }
 }
